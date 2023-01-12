@@ -1,7 +1,7 @@
 #=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
 # Intro things                                    ####
 #
-# GSERM - Ljubljana (2022)
+# GSERM - Ljubljana (2023)
 #
 # Analyzing Panel Data
 # Prof. Christopher Zorn
@@ -131,6 +131,7 @@ wdi2<-WDI(country="all",
                      "NaturalResourceRents"="NY.GDP.TOTL.RT.ZS", # Total natural resource rents (% of GDP)
                      "GovtExpenditures"="NE.CON.GOVT.ZS", # Government Expenditures, % of GDP
                      "PublicHealthExpend"="SH.XPD.HLTH.ZS", # Public expenditure on health (% of GDP)
+                     "WomenInLegislature"="SG.GEN.PARL.ZS", # Pct. Women in National Parliament 
                      "PaidParentalLeave"="SH.PAR.LEVE.AL")) # Paid Parental Leave (0=no,1=yes)
 
 # Remove aggregates (e.g., "World," "Arab World," etc.):
